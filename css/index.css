@@ -1,0 +1,17 @@
+body{
+    font-family: Roboto;
+}
+.main-div {
+    width: 90%;
+    margin: 0 auto;
+}
+/* nav-area css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items {
+    display: flex;
+    gap: 2vw;
+}
