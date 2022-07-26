@@ -11,7 +11,60 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+nav img {
+    width: 8vw;
+}
 .nav-items {
     display: flex;
     gap: 2vw;
+}
+.signin-btn,.learn-more-btn {
+    background: linear-gradient( 50deg, rgb(136 63 251), rgb(226 134 199));
+    color: #fff;
+    border-radius: 1vw;
+    padding: 4px 15px;
+    border: none;
+    z-index: 999;
+}
+/* intro-section css */
+.intro-section {
+    display: flex;
+}
+.left-section {
+    width: 33%;
+}
+.left-section h1 {
+    font-size: 5vw;
+    margin-top: 20vh;
+}
+.left-section h4 {
+    font-weight: 100;
+}
+.left-section .learn-more-btn {
+    font-size: 2vw;
+    border-radius: 3vw;
+    padding: 1vw 2vw;
+    margin-top: 6vh;
+}
+.imgs-div {
+    width: 67%;
+    background-image: url("../images/backcover.svg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.imgs-div img:nth-child(3){
+   width: 100%;
+   margin-top: 15vh;
+
+
+}
+.imgs-div img:nth-child(1){
+    position: absolute;
+    top: 70%;
+}
+.imgs-div img:nth-child(2){
+    position: absolute;
+    top: 67%;
 }
